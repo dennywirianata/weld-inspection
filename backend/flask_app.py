@@ -16,7 +16,7 @@ import re
 
 # Initialize Firebase
 try:
-    cred = credentials.Certificate("iti110-project-firebase-adminsdk-fbsvc-91f399e4ca.json")  
+    cred = credentials.Certificate("iti110-project-firebase-adminsdk-fbsvc-0b044aec50.json")  
     firebase_admin.initialize_app(cred, {
         'storageBucket': 'iti110-project.firebasestorage.app' 
     })
