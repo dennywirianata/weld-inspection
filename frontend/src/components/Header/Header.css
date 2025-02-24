@@ -1,0 +1,17 @@
+.header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #1e1e2f, #1f1c2c);
+  color: white;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  display: inline-block;
+  font-size: 3rem;
+  margin: 0;
+}

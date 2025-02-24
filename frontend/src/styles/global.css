@@ -1,0 +1,85 @@
+/* src/styles/global.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e2f;
+  color: #ffffff;
+}
+
+.App {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(30, 30, 47, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  position: relative;
+  z-index: 2;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.section-title {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.upload-form, .training-form {
+  margin-bottom: 40px;
+}
+
+.upload-form h2, .training-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.upload-form .form-group, .training-form .form-group {
+  margin-bottom: 20px;
+}
+
+.upload-form .btn-primary, .training-form .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.upload-form .btn-primary:hover, .training-form .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.upload-form .alert, .training-form .alert {
+  margin-top: 20px;
+}
+
+.upload-form .image-preview, .training-form .image-preview {
+  margin-top: 20px;
+}
+
+.upload-form .image-preview img.small-image, .training-form .image-preview img.small-image {
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+
+.indicator {
+  margin-bottom: 20px;
+}
+
+.indicator .indicator-alert {
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.indicator .indicator-alert i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}

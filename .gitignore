@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Build directory
+build/
+
+# Environment variables
+#frontend/.env
+
+# Virtual Environment
+backend/venv/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Temp files
+temp_*/.env 
+
+# Other directories
+

@@ -1,0 +1,61 @@
+/* src/components/PredictImagePage/PredictImagePage.css */
+.predict-image-page {
+  margin-bottom: 40px;
+}
+
+.predict-image-page h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.predict-image-page .form-group {
+  margin-bottom: 20px;
+}
+
+.predict-image-page .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.predict-image-page .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.predict-image-page .alert {
+  margin-top: 20px;
+}
+
+.predict-image-page .image-preview {
+  margin-top: 20px;
+}
+
+.predict-image-page .image-preview h4 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.predict-image-page .image-preview img.small-image {
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+}
+
+.indicator {
+  margin-bottom: 20px;
+}
+
+.indicator .indicator-alert {
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.indicator .indicator-alert i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}

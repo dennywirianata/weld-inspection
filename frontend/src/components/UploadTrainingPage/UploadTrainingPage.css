@@ -1,0 +1,27 @@
+/* src/components/UploadTrainingPage/UploadTrainingPage.css */
+.upload-training-page {
+  margin-bottom: 40px;
+}
+
+.upload-training-page h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.upload-training-page .form-group {
+  margin-bottom: 20px;
+}
+
+.upload-training-page .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.upload-training-page .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.upload-training-page .alert {
+  margin-top: 20px;
+}
